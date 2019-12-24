@@ -1,0 +1,207 @@
+
+.logo{
+    position: absolute;
+    top:0vh;
+    height:auto;
+    width: 140px;
+    float: left; 
+}
+.navbar{
+    min-height: 3.5rem;
+    background-color: #031E47;
+}
+.navbar-nav{
+    margin-top: 0.5vw;
+    margin-left: 15vw;
+    
+}
+.navbar-nav li a{
+    margin-left: 1vw;
+    
+}
+
+.img1{
+    width: 100%;
+
+}
+.img2{
+    width:100%;
+    height: 100%;
+}
+
+.blue{
+    position: relative;
+    text-align: center;
+    width: 300px;  
+    background:  #031E47;;
+    color: wheat;
+    padding : 2vh;
+    text-align: center;
+    top: -7vh;
+}
+
+@media (max-width: 520px){
+    .blue{
+
+        position : relative;
+        right: 25%;
+        
+    }
+    .order{
+        position: relative;
+        right: 25%;
+    }
+}
+.order{
+    position: relative;
+    color:  #031E47;
+    margin-bottom: 10%;
+    margin-top: -10%;
+}
+.third{    
+    background-image: url(img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+.reserve{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    text-align: center;
+    color: white;
+}  
+
+.party{
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 40vw;
+    color: #031E47;
+}
+.fifth{
+    background-image: url(img/5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.beer{
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    
+    color:white;
+    text-align: center;
+}
+section img{
+    width: 100%;
+}
+.foot{
+    background-image: url(img/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    color: white; 
+    text-align: center;  
+    
+}
+  .social{
+    position: relative;
+    top: 10vh;
+}
+.footlinks ul{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.icons img{
+    margin: 2rem;
+}
+
+@media(max-width:520px){
+   
+    .footlinks{
+        text-align: center;
+    }
+    .footlinks ul{
+        position: relative;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    #p1{
+        position: relative;
+        left: 25%;
+    }
+
+    #p2{
+        position: relative;
+        right: 15%;
+        margin-top: 0 !important;
+    }
+
+}
+.footlinks ul li{
+    margin: 1rem;
+    
+}
+#p2{
+    position: relative;
+    top: 7vw;
+    margin-top: 2rem;
+    float: right;
+    margin-right: 2rem;
+    margin-bottom: 8vw;
+}
+#p1{
+    position: relative;
+    top: 7vw;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 8vw;
+    
+} 
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding : 10px 50px !important;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px !important;
+}
+.btn-order, .btn-pkg{
+    
+    border : 2px solid #031E47 !important;
+    color : #031E47 !important;
+}
+.btn-tbl, .btn-know{
+    border: 2px solid white !important;
+    color: white !important;
+}
+.btn-order:hover, .btn-pkg:hover{
+    background: #031E47;
+    color: white !important;
+}
+.btn-tbl:hover, .btn-know:hover{
+    background: #031E47 !important; 
+}
+#navbarNav .btn-login{
+    border: 2px solid gray;
+    color: gray;
+    display: inline-block;
+    margin-left: 80px;
+    padding: 5px 10px;
+    font-weight: 300;
+    border-radius: 200px;
+    text-decoration: none;
+}
+#navbarNav .btn-login:hover{
+    color:white !important;
+    border : 2px solid white;
+}
